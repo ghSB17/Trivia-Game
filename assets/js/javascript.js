@@ -35,6 +35,7 @@ function checkdisplay(timeValue) {
 
 $("#idButton").on("click",function(){
     if( this.innerText==="Start") {
+      $("#idTimer").html("Time Remaining  -  02:00")  
       $(".bigbox").css({"height":"100%"});
       $.each(objQuestionsBank, function(index) { 
           
